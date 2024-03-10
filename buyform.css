@@ -1,0 +1,62 @@
+body{
+    background-image:url(back.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0px 0px 30px rgb(187, 187, 241);
+    border-radius: 10px;
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inpt{
+    margin-top: 20%;
+}
+#inp1{
+    padding: 10px;
+    width: 60%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    outline: none;
+    background: transparent;    
+    color: white;
+}
+#inp2{
+    padding: 10px;
+    width: 60%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 20px;
+    outline: none;
+    background: transparent;    
+    color: white;
+}
+    #inp3{
+    padding: 10px;
+    width: 60%;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: groove;
+    outline: none;
+}
+.submit{
+    margin-top: 6%;
+    padding: 10px;
+    width: 67%;
+    border-radius: 8px;
+    border: none;
+    background-color: gold;
+}
+.messsage{
+    width: 300px;
+    height: 100px;
+    box-shadow: 0px 0px 30px rgb(181, 181, 246);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: none;
+}

@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow-y:scroll;
+}
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ .nav{
+    box-shadow: 0px 0px 30px rgb(243, 178, 178);
+   display: flex;
+   height: 80px;
+ }
+span{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.log{
+    margin-top: 20px;
+}
+.log h1{
+    margin-left: 30px;
+}
+.links{
+    margin-left: 37%;
+    margin-top: 30px;
+}
+.links a{
+    margin-left: 70px;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    transition: 0.2s;
+}
+.links a:hover{
+    color: red;
+    font-weight: bold;
+    font-weight: 600;
+}
+.content{
+    display: flex;
+}
+.img1{
+    width: 360px;
+    height: 350px;
+    margin-left: 70%;
+    margin-top: 120px;
+    border-radius: 60%;
+}
+.words{
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 40%;
+}
+.join{
+    padding: 10px;  
+    width: 30%;
+    height: 10%;
+    margin-top: 40px;
+    margin-left: 10%;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(255, 242, 0);
+    font-weight: bold;
+    font-weight: 600;
+}
+.singup{
+    padding: 10px;  
+    width: 30%;
+    height: 10%;
+    border-radius: 20px;
+    border: none;
+    color: red;
+    background-color: rgb(219, 231, 231);
+    font-weight: bold;
+    font-weight: 600;
+}
+.img2{
+    width: 360px;
+    height: 350px;
+    margin-left: 70%;
+    margin-top: 120px;
+    border-radius: 60%;
+    display: none;
+}
+.active{
+    background-color: rgb(198, 245, 249);
+    height: 30px;
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+}

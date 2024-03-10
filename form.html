@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e_shopping</title>
+    <link rel="stylesheet" href="buyform.css">
+</head>
+<body>
+    <center>
+             <div class="form" id="form">
+            <h1 style="margin-top: 30px; color: gold;">BUY</h1>
+        <div class="inpt">
+            <input type="text" name="" id="inp1" placeholder="username">
+            <br>
+            <input type="password" name="" id="inp2" placeholder="password">
+            <br>
+            <input type="text" name="" id="inp3" placeholder="cost" readonly>
+            <br>
+            <input type="submit" value="buy" onclick="sub()" class="submit">
+        </div>
+     </div>
+     <div class="messsage" id="ms">
+        <p style="color: red; margin-top: 60%;">hellow my freind samething is feiled tyr anther way</p>
+     </div>
+    </center>
+    <script>
+        const cost1 = localStorage.getItem('price');
+        document.getElementById('inp3').value = cost1;
+    </script>
+</body>
+</html>
